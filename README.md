@@ -2,7 +2,7 @@
 
 Super easy application to be used to change Samba passwords for external users at SOS.
 
-## How to start
+## How to start the application
 
 First clone the repository
 
@@ -32,5 +32,10 @@ $ source venv/bin/activate
 $ flask --app flaskr --debug run
 ```
 That's it! You can test the app using http://127.0.0.1:5000/ or http://<your_server_ip>:5000/
+
+## How to deploy the application
+
+Application can be deployed on Apache httpd using mod_wsgi.
+See more details here: https://flask.palletsprojects.com/en/2.2.x/deploying/mod_wsgi/
 
 **Note:** Inspired by [flask-quickstart.](https://github.com/bittobennichan/flask-quickstart)
