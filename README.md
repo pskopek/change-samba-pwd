@@ -31,6 +31,6 @@ Start the development server
 $ source venv/bin/activate
 $ flask --app flaskr --debug run
 ```
-That's it! 
+That's it! You can test the app using http://127.0.0.1:5000/ or http://<your_server_ip>:5000/
 
 **Note:** Inspired by [flask-quickstart.](https://github.com/bittobennichan/flask-quickstart)
